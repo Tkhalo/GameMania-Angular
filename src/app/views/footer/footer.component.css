@@ -1,0 +1,13 @@
+.footer {
+    display: block;
+    padding-top: 1px;
+
+    background-color: #C4C4C4;
+
+
+    text-align: center;
+
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    
+}

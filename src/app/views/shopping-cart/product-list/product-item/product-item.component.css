@@ -1,0 +1,20 @@
+
+.card-body{
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 46px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-group {
+    display: contents;
+} 
+
+@media (min-width: 768px) and (max-width: 1025px){
+    .produtoImg {
+        width: 100%;
+    }
+    
+}

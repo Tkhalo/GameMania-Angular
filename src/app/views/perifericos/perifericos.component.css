@@ -1,0 +1,100 @@
+.pcgamer {
+    background-image: url('../../../assets/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; 
+
+
+}
+
+.texto h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #50C9CE;
+    text-transform: uppercase;
+    margin-top: 2%;
+    font-weight: bolder;
+
+}
+.texto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #515151;
+
+    
+
+}
+.product-body{
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 46px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-group {
+    display: contents;
+} 
+.products {
+    margin-left: 20%;
+    display: flex;
+    margin-right: 20%;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 18px;}
+
+.btn-final {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+@media (min-width: 1025px) and (max-width: 1279px)
+{
+
+.products
+{
+    margin-left: 2%  !important; 
+    display: flex;
+    margin-bottom: 1%;
+    margin-right:5%;
+}
+
+}  
+@media (min-width: 768px) and (max-width: 1025px){
+    .products
+    { margin-left: 6%;
+    display: flex;
+    margin-bottom: 1%;
+    margin-right: -62%;}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .products
+    {display: grid;
+    justify-content: center;
+    margin-left: none;
+  
+    margin-right: none;}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .products
+    {display: grid;
+    justify-content: center;}
+}

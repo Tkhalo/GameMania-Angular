@@ -1,1 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html, body {  
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; }
+body { margin: 0; font-family: 'Montserrat', sans-serif; 
+}
+
+
+.menu_links{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+/* .shopping {
+
+    background-image: url('../src/assets/img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; height: 100%;
+
+} */
+.card,  .btn {
+    border-radius: 15px;
+
+}
+.card {
+    margin-top: 12%;
+    width: 300px;
+   
+  
+}
+
+.btn {
+    
+    text-transform: uppercase;
+   
+    font-family: 'Montserrat', sans-serif;
+}
+.list-group {
+    margin-right: 50px;
+    margin-top: 17%;
+    border-radius: 15px;
+}
+
+.list-group-item {
+    position: relative;
+    display: flex;
+    padding: 0.5rem 3rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: #fff;
+    border: 2px solid rgba(0,0,0,.125);
+    flex-direction: row;
+    align-content: space-around;
+ 
+}
+.card-body{
+    font-size: 20px;
+    text-align: center;
+    padding: 2px 46px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn-group {
+    display: contents;
+}
+
+
+/* media queries 
+FINISHED
+@media (min-width: 1420px)
+@media (min-width: 1280px) 
+@media (min-width: 1025px) and (max-width: 1279px)
+ */
+
+
+/* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    }
+
+   

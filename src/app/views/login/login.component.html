@@ -1,0 +1,36 @@
+<section class="email">
+    <div class="row">
+        <div class="container emailBox">
+            
+            <div class="textoLog">
+                <h1 class="login col-6">Login</h1>
+                <a href="#" class="logo">
+                    <img src="../../../assets/img/LOGO 1.png" alt="Logo do Game Mania">
+                </a>
+            </div>
+        
+            <form #userForm="ngForm" (ngSubmit)="onSubmit()" class="data">
+                <label for="email">Nome de usuário ou e-mail: </label>
+                <input type="email" id="email" name="email" [(ngModel)]="userModel.email">
+            
+                <label for="senha">Senha: </label>
+                <input type="password" id="senha" name="senha" [(ngModel)]="userModel.senha">
+            
+                <button type="submit" class="btnEntrar">Entrar</button>
+            </form>
+            <div class="forget">
+                <a href="#">Esqueci minha senha</a>
+            </div>
+            <hr>
+            <div class="cadastro">
+                
+                <a href="#">Ainda não tem conta?</a>
+                    <button type="submit" class="btnSignup">Cadastre-se</button>
+
+                
+            </div>
+
+        </div>
+    </div>
+    
+</section>

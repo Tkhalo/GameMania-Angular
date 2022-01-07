@@ -1,0 +1,75 @@
+.email {
+    display: grid;
+    justify-content: center;
+    background-image: url(../../../assets/img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.emailBox{
+    background-color: white;
+    border-radius: 5px;
+    margin: 10% 0% 10% 0%;
+    width: 400px;
+    height: 386px;
+}
+.textoLog {
+    display: flex;
+    justify-content: space-between;
+}
+.login {
+    margin-bottom: 21px;
+    margin-top: 14px;
+    color: black;
+    font-size: 29px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.logo img{
+    width: 94px;
+    height: 37px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.data {
+    display: grid;
+    justify-content: center;
+    margin-top: 15%;
+    
+}
+#email {
+    margin-bottom: 5%;
+}
+.btnEntrar {
+    min-height: 40px;
+    background-color: #CBE896;
+    border: transparent;
+    margin-top: 15px;
+}
+
+.forget {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cadastro {
+    display: flex;
+    justify-content: center;
+    
+}
+.cadastro a {
+    padding-right: 2%;
+}
+
+.btnSignup {
+    background-color: rgb(177 177 177);
+    color: #CBE896;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+
+}

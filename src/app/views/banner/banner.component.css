@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.banner {
+background-image: url(../../../assets/img/BANNER.png);
+    height: 315px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden; }
+/* #banner_home { height: 315px;
+    overflow-x: hidden; } */
+/* #banner_home img { width: 100%; height: 315px;} */
+.btn-final {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+/* #banner_home .btn {
+    position: fixed; top: 410px; box-shadow: none; border: none; height: 40px; width:195px; border-radius: 22px;
+    background-color: #272727; right: 45%; font-size: 25px; color: #50C9CE; text-transform: uppercase; font-family: 'Montserrat', sans-serif; overflow-x: hidden; 
+} */
+/* @media (min-width: 1025px) and (max-width: 1280px){
+    #banner_home img { 
+        max-width: 300px; 
+        height:fit-content;
+}} */

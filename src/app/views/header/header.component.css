@@ -1,0 +1,14 @@
+.mat-toolbar-row {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 160px;
+    background-color: #30343F;
+    padding: 0 45px;
+  
+}
+.logo {
+    width: 150px;
+    height: auto;
+}
+

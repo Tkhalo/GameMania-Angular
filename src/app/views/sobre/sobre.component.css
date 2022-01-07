@@ -1,0 +1,65 @@
+.sobre {
+
+    background-image: url('../../../assets/img/sobre.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; height: 540px;}
+
+.flex-container {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .flex-item3 {
+    width: 415px;
+    height: 150px;
+    padding-top: 90px;
+    text-align: center;
+  }
+  .flex-item3 h1{
+    color: #30343F;
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+
+  }
+  .flex-item3 p{
+    color: #CBE896;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+  }
+  @media (min-width: 1025px) and (max-width: 1279px){
+
+  .sobre {
+    background-position: right;}
+  
+  .flex-container {
+    justify-content: start;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .sobre {
+    background-position: -48pc;}
+  
+  .flex-container {
+    justify-content: start;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .sobre {
+   display: none;}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .sobre {
+    display: none;}
+  }

@@ -1,0 +1,152 @@
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #30343F;
+  }
+  
+
+  .flex-item2 {
+    padding: 70px;
+    width: 421px;
+    height: 290px;
+    color: white;
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+  }
+  .flex-item2 h1{
+    color: #CBE896;
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+  .flex-item2 h3 {
+  
+        color: #E3E5FC;
+        font-size: 21px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+       
+    }
+ 
+
+  .flex-item img {
+    width: 390px;
+    height: 290px;
+}
+.flex-item2 button {
+    width: 100px;
+    height: 20px;
+    font-size: medium;
+
+}
+
+.btnclik {
+    display: flex;
+    justify-content: center;
+   
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #272727;
+    width: 270px;
+    height: 40px;
+    border-radius:22px;
+    padding-left: 15px;
+    padding-top: 5px;
+ 
+}
+.btnclik h2 {
+    color: #CBE896;
+}
+.btnclik:hover {
+   opacity: 3;
+    
+
+}
+
+.btnclik img {
+    width: auto;
+    height: 46px;
+    padding-left: 10px;
+
+}
+    
+
+@media screen and (max-width: 600px) {
+  .descontosLi {
+    font-size: small;
+  }
+  .controle2 {
+    display: grid;
+    justify-content: center;
+
+  }
+  .controleBtn {
+      display: none;
+  }
+  .controle {
+      display: none;
+
+  }
+}
+@media (min-width: 1280px){
+
+  .flex-item2 {
+      padding: 32px;
+      padding-top: 75px;
+width: 340px;
+  }
+  .flex-item img{
+      width: 300px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px){
+  .flex-item2 {
+    padding: 32px;
+    padding-top: 75px;
+width: 340px;
+}
+.controle2{
+    display: none;
+}
+
+#controleMao {
+  display: none;
+}
+.flex-container  {
+  justify-content: center !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+  .controle2{
+    display: none;
+}
+
+#controleMao {
+  display: none;
+}
+.flex-container  {
+  justify-content: center !important;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .descontosLi{
+    display: none !important;
+  }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .descontosLi{
+  display: none !important;
+}
+}

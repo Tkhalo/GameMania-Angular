@@ -1,0 +1,40 @@
+.newsletter {
+    padding: 5px 0px;
+    background-color: #C4C4C4;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.newsletter .content{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .newsletter .content h2{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  color: black;
+  font-size: medium;
+ }
+ .newsletter .content .form-control {
+     height: 40px;
+     border-color:  #CBE896;
+     border-radius: 22px 0px 0px 22px;
+    
+ }
+ .newsletter .content .form-control:focus {
+     box-shadow: none;
+     border: 2px solid black;
+ }
+ .newsletter .content .btn {
+     min-height: 40px;
+     border-radius: 0px;
+     background-color:#CBE896;
+     color: rgb(0, 0, 0);
+     margin: auto;
+ }
+ .newsletter .content .input-group {
+     align-items: center;
+ }
+ 

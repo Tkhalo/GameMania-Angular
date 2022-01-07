@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.shopping1 {
+    background-image: url('../../../assets/img/background.png');
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    width: 100%;
+}
